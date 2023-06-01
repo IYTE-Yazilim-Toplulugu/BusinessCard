@@ -18,8 +18,8 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
     <div className="container mx-auto max-w-md min-h-screen h-full bg-blue-900 text-white pb-10 backGround">
 
       <div className="absolute z-0">
-        <img className="relative z-10" src={coolImage} />
-        <img className="absolute z-0 top-0" src={ImageShadow} />
+        <img className="relative z-10" src={coolImage} alt={name} />
+        <img className="absolute z-0 top-0" src={ImageShadow} alt='shadow' />
       </div>
 
 
@@ -57,7 +57,7 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
       </div>
 
       <div className="flex justify-around items-center px-4 mt-8 z-20">
-        <img className="w-24" src={CircleLogo} />
+        <img className="w-24" src={CircleLogo} alt='iyte yazılım topluluğu' />
 
         <div className='z-20'>
           <h2 className="font-extrabold text-xl">İYTE Yazılım Topluluğu</h2>

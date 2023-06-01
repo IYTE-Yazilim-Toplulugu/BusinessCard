@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from '@react-three/drei';
-import Model from "./Iss";
+import Model from "./Iss1";
 
 const LogoCanvas = () => {
   return (

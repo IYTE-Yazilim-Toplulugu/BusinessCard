@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { members } from '../data';
 
 import BasicLogo from "../assets/png-colorful.png";
-import Kedi from "../assets/members/katzen.JPG";
 import Blob from "../assets/members/blob.svg";
 import { useNavigate } from 'react-router-dom';
 

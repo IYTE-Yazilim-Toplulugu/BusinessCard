@@ -1,17 +1,3 @@
-import LogoCanvas from "./components/LogoCanvas";
-import Image from "./assets/Mask group.png";
-import ImageShadow from "./assets/Rectangle 12.svg";
-
-import BasicLogo from "./assets/png-colorful.png";
-import CircleLogo from "./assets/circle.png";
-
-
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import RedditIcon from '@mui/icons-material/Reddit';
 import { Route, Routes } from "react-router-dom";
 
 import Manager from "./pages/Manager";
