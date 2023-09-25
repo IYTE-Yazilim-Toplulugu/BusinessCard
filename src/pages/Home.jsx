@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { members } from '../data';
 
 import BasicLogo from "../assets/png-colorful.png";
-import Blob from "../assets/members/blob.svg";
+
+
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -40,12 +41,11 @@ const Home = () => {
 
             {
                 members.map((member, i) => (
-                    <div className='cursor-pointer' key={i} onClick={() => lang ? navigation(`/tr/${member.url}`) : navigation(`/en/${member.url}`) }>
-                        <div className='flex justify-center items-center'>
-                            <img src={Blob} alt="bg" className='absolute z-0 lg:hidden w-[50vw] -mt-16' />
-                            <img className="mask z-10" src={member.image} alt="member" />
+                    <div className='cursor-pointer my-2 flex flex-col items-center' key={i} onClick={() => lang ? navigation(`/tr/${member.url}`) : navigation(`/en/${member.url}`) }>
+                        <div className='flex justify-center w-5/6 rounded-xl items-center p-1 bg-orange-500'>
+                            <img className="relative rounded-xl" src={member.image} alt="member" />
                         </div>
-                        <div className='flex flex-col justify-center items-center -mt-16 z-20'>
+                        <div className='flex flex-col justify-center items-center z-20 mt-2'>
                             <h2 className='font-bold text-lg text-center'>{member.name + " " + member.surname}</h2>
                             <p className='font-light text-sm -mt-1.5 text-center'>{lang ? member.title.tr : member.title.en}</p>
                         </div>

@@ -1,7 +1,8 @@
 import React from 'react';
 
 import LogoCanvas from "../components/LogoCanvas";
-import ImageShadow from "../assets/Rectangle 12.svg";
+// import ImageShadow from "../assets/Rectangle 12.svg";
+import ImageShadow from "../assets/Individual/shadow.svg";
 
 import CircleLogo from "../assets/circle.png";
 
@@ -18,8 +19,8 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
     <div className="container mx-auto max-w-md min-h-screen h-full bg-blue-900 text-white pb-10 backGround">
 
       <div className="absolute z-0">
-        <img className="relative z-10" src={coolImage} alt={name} />
-        <img className="absolute z-0 top-0" src={ImageShadow} alt='shadow' />
+        <img className="relative z-10 pointer-events-none" src={coolImage} alt={name} />
+        <img className="absolute z-0 top-0 pointer-events-none" src={ImageShadow} alt='shadow' />
       </div>
 
 
@@ -34,11 +35,6 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
         </div>
 
         <div className="flex flex-col items-end justify-end mb-10 z-20">
-          <p className="font-bold text-sm">Email:</p>
-          <p className="font-extralight text-lg">{email}</p>
-        </div>
-
-        <div className="flex flex-col items-end justify-end mb-10 z-20">
           <p className="font-bold text-sm">Bölüm / Sınıf:</p>
           <p className="font-extralight text-sm">{school}</p>
           <p className="font-extralight text-sm">{department}</p>
@@ -46,7 +42,18 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
         </div>
 
         <div className="flex flex-col items-end justify-end mb-10 z-20">
-          <h1 className="font-extrabold text-3xl">{name + " " + surname}</h1>
+          <p className="font-bold text-sm">Emails:</p>
+          {
+            email.map(e => {
+              return (
+                <p className="font-extralight text-lg">{e}</p>
+              );
+            })
+          }
+        </div>
+
+        <div className="flex flex-col items-end justify-end mb-10 z-20">
+          <h1 className="font-extrabold text-4xl">{name + " " + surname}</h1>
           <p className="-mt-1 text-sm font-light">{title}</p>
           <div className="flex justify-end items-end mt-2">
             <a href={insta} className="ml-1"><InstagramIcon /></a>

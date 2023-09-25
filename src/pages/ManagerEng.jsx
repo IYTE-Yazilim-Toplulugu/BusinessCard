@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LogoCanvas from "../components/LogoCanvas";
-import ImageShadow from "../assets/Rectangle 12.svg";
+import ImageShadow from "../assets/Individual/shadow.svg";
 
 
 import CircleLogo from "../assets/circle.png";
