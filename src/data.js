@@ -52,7 +52,7 @@ export const members = [
             tr: "1. Sınıf",
             en: "1. Grade"
         },
-        email: ["dogukantopcu35@gmail.com"],
+        email: ["dogukantopcu@std.iyte.edu.tr","dogukantopcu35@gmail.com"],
         phone: "+90 553 198 35 75",
 
         image: MemberDogukan,
@@ -155,7 +155,37 @@ export const members = [
         coolImage: Oguzhan
     },
 
-    
+    {
+        url: "atakanserce",
+        name: "Atakan",
+        surname: "SERÇE",
+        title: {
+            tr: "Yönetim Kurulu İletişim Başkanı",
+            en: "Head of Society Board of Communication"
+        },
+        social: {
+            insta: "https://www.instagram.com/serceatakan/",
+            linkedin: "https://www.linkedin.com/in/atakan-ser%C3%A7e-2516b9220/",
+            github: "https://github.com/byserce",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "2. Sınıf",
+            en: "2. Grade"
+        },
+        email: ["atakanserce@std.iyte.edu.tr", "atakan.serce@outlook.com"],
+        phone: "+90 505 036 60 80",
+
+        image: MemberAta,
+        coolImage: Ata
+    },
 
     {
         url: "akinakdogan",
@@ -220,38 +250,6 @@ export const members = [
 
         image: MemberKerem,
         coolImage: Kerem
-    },
-
-    {
-        url: "nazodenir",
-        name: "Zeynep Naz",
-        surname: "ÖDENİR",
-        title: {
-            tr: "Yönetici Kurulu Sosyal Medya Yöneticisi",
-            en: "Executive Board Social Media Manager"
-        },
-        social: {
-            insta: "https://www.instagram.com/nazkie_1/",
-            linkedin: "https://www.linkedin.com/in/naz-ödenir-072721272/",
-            github: "https://github.com/nazkie1",
-        },
-        school: {
-            tr: "İzmir Yüksek Teknoloji Enstitüsü",
-            en: "İzmir Institute of Technology"
-        },
-        department: {
-            tr: "Bilgisayar Mühendisliği",
-            en: "Computer Engineering"
-        },
-        grade: {
-            tr: "2. Sınıf",
-            en: "2. Grade"
-        },
-        email: ["zeynepodenir@std.iyte.edu.tr", "zeynepnazodenir@gmail.com"],
-        phone: "+90 552 678 33 18",
-
-        image: MemberNaz,
-        coolImage: Naz
     },
 
     {
@@ -382,37 +380,7 @@ export const members = [
         coolImage: CoolImage
     },
 
-    {
-        url: "atakanserce",
-        name: "Atakan",
-        surname: "SERÇE",
-        title: {
-            tr: "Yönetim Kurulu İletişim Başkanı",
-            en: "Head of Society Board of Communication"
-        },
-        social: {
-            insta: "https://www.instagram.com/serceatakan/",
-            linkedin: "https://www.linkedin.com/in/atakan-ser%C3%A7e-2516b9220/",
-            github: "https://github.com/byserce",
-        },
-        school: {
-            tr: "İzmir Yüksek Teknoloji Enstitüsü",
-            en: "İzmir Institute of Technology"
-        },
-        department: {
-            tr: "Bilgisayar Mühendisliği",
-            en: "Computer Engineering"
-        },
-        grade: {
-            tr: "2. Sınıf",
-            en: "2. Grade"
-        },
-        email: ["atakanserce@std.iyte.edu.tr", "atakan.serce@outlook.com"],
-        phone: "+90 505 036 60 80",
-
-        image: MemberAta,
-        coolImage: Ata
-    },
+  
 
     {
         url: "atakanserce",

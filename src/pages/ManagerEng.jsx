@@ -25,18 +25,24 @@ const ManagerEng = ({ name, surname, title, insta, github, linkedin, school, dep
 
 
       <div className="flex flex-col justify-end items-end z-20 px-6">
-        <div className="w-32">
+        <div className="w-32 mt-32">
           <LogoCanvas />
         </div>
 
-        <div className="flex flex-col items-end justify-end mb-10 z-20">
+        <div className="flex flex-col items-end justify-end mb-10 z-20 mt-12">
           <p className="font-bold text-sm">Phone Number:</p>
           <p className="font-extralight text-xl">{phone}</p>
         </div>
 
         <div className="flex flex-col items-end justify-end mb-10 z-20">
-          <p className="font-bold text-sm">Email:</p>
-          <p className="font-extralight text-lg">{email}</p>
+          <p className="font-bold text-sm">Emails:</p>
+          {
+            email.map(e => {
+              return (
+                <p className="font-extralight text-lg">{e}</p>
+              );
+            })
+          }
         </div>
 
         <div className="flex flex-col items-end justify-end mb-10 z-20">
