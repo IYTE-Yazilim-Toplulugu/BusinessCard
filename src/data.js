@@ -11,6 +11,7 @@ import Dilay from "./assets/Individual/dilay.png";
 import Damla from "./assets/Individual/damla.png";
 import Mumtaz from "./assets/Individual/mumtaz.png";
 import Kerem from "./assets/Individual/kerem.png";
+import Ata from "./assets/Individual/atakan.png";
 
 
 import MemberOguz from "./assets/members/oguzkare.png";
@@ -23,6 +24,7 @@ import MemberDilay from "./assets/members/dilaykare.png";
 import MemberDamla from "./assets/members/damlakare.png";
 import MemberMumtaz from "./assets/members/mumtazkare.png";
 import MemberKerem from "./assets/members/keremkare.png";
+import MemberAta from "./assets/members/atakare.png";
 
 export const members = [
     {
@@ -389,9 +391,9 @@ export const members = [
             en: "Head of Society Board of Communication"
         },
         social: {
-            insta: "",
-            linkedin: "",
-            github: "",
+            insta: "https://www.instagram.com/serceatakan/",
+            linkedin: "https://www.linkedin.com/in/atakan-ser%C3%A7e-2516b9220/",
+            github: "https://github.com/byserce",
         },
         school: {
             tr: "İzmir Yüksek Teknoloji Enstitüsü",
@@ -402,14 +404,14 @@ export const members = [
             en: "Computer Engineering"
         },
         grade: {
-            tr: "1. Sınıf",
-            en: "1. Grade"
+            tr: "2. Sınıf",
+            en: "2. Grade"
         },
-        email: ["dogukantopcu35@gmail.com"],
-        phone: "+90 553 198 35 75",
+        email: ["atakanserce@std.iyte.edu.tr", "atakan.serce@outlook.com"],
+        phone: "+90 505 036 60 80",
 
-        image: Image,
-        coolImage: CoolImage
+        image: MemberAta,
+        coolImage: Ata
     },
 
     {
