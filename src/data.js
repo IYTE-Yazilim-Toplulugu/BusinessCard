@@ -125,7 +125,7 @@ export const members = [
 
     {
         url: "oguzhanyildirim",
-        name: "Oğzuhan",
+        name: "Oğuzhan",
         surname: "YILDIRIM",
         title: {
             tr: "Yönetici Kurulu Yapay Zeka ve Veri Bilimi Yöneticisi",
@@ -383,12 +383,12 @@ export const members = [
   
 
     {
-        url: "atakanserce",
-        name: "Atakan",
-        surname: "SERÇE",
+        url: "Oğulcan Küçükbıyıklar",
+        name: "Oğulcan",
+        surname: "Küçükbıyıklar",
         title: {
-            tr: "Yönetim Kurulu İletişim Başkanı",
-            en: "Head of Society Board of Communication"
+            tr: "---",
+            en: "---"
         },
         social: {
             insta: "",
@@ -404,11 +404,11 @@ export const members = [
             en: "Computer Engineering"
         },
         grade: {
-            tr: "1. Sınıf",
-            en: "1. Grade"
+            tr: "2. Sınıf",
+            en: "2. Grade"
         },
-        email: ["dogukantopcu35@gmail.com"],
-        phone: "+90 553 198 35 75",
+        email: ["---"],
+        phone: "---",
 
         image: Image,
         coolImage: CoolImage
