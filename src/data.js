@@ -13,6 +13,12 @@ import Mumtaz from "./assets/Individual/mumtaz.png";
 import Kerem from "./assets/Individual/kerem.png";
 import Ata from "./assets/Individual/atakan.png";
 import Rollas from "./assets/Individual/rollas.png";
+import Tugce from "./assets/Individual/tugce.png";
+import Emre from "./assets/Individual/emre.png";
+import Doga from "./assets/Individual/doga.png";
+import Ceylin from "./assets/Individual/ceylins.png";
+import Oglcn from "./assets/Individual/oglcnn.png";
+import Necla from "./assets/Individual/necla.png";
 
 
 import MemberOguz from "./assets/members/oguzkare.png";
@@ -27,6 +33,12 @@ import MemberMumtaz from "./assets/members/mumtazkare.png";
 import MemberKerem from "./assets/members/keremkare.png";
 import MemberAta from "./assets/members/atakare.png";
 import MemberRollas from "./assets/members/rollaskare.png";
+import MemberTugce from "./assets/members/tugekare.png";
+import MemberEmre from "./assets/members/emrekare.png";
+import MemberDoga from "./assets/members/dogakare.png";
+import MemberCeylin from "./assets/members/ceylinkare.png";
+import MemberOglcn from "./assets/members/oglcnkare.png";
+import MemberNecla from "./assets/members/neclakare.png";
 
 export const members = [
     {
@@ -263,9 +275,9 @@ export const members = [
             en: "Executive Board Publicity Officer"
         },
         social: {
-            insta: "https://www.instagram.com/nazkie_1/",
-            linkedin: "https://www.linkedin.com/in/naz-ödenir-072721272/",
-            github: "https://github.com/nazkie1",
+            insta: "https://www.instagram.com/yldz_nurcan_/",
+            linkedin: "https://www.linkedin.com/in/nurcan-y%C4%B1ld%C4%B1z-5b2b37234/",
+            github: "https://github.com/nurcann23",
         },
         school: {
             tr: "İzmir Yüksek Teknoloji Enstitüsü",
@@ -276,11 +288,11 @@ export const members = [
             en: "Computer Engineering"
         },
         grade: {
-            tr: "2. Sınıf",
-            en: "2. Grade"
+            tr: "3. Sınıf",
+            en: "3. Grade"
         },
-        email: ["zeynepodenir@std.iyte.edu.tr", "zeynepnazodenir@gmail.com"],
-        phone: "+90 552 678 33 18",
+        email: ["nurcanyildiz@std.iyte.edu.tr", "23nuryldz@gmail.com"],
+        phone: "+90 537 550 83 01",
 
         image: MemberNaz,
         coolImage: Naz
@@ -412,6 +424,198 @@ export const members = [
 
         image: MemberRollas,
         coolImage: Rollas
+    },
+
+    {
+        url: "tugceturkmenler",
+        name: "Tuğçe",
+        surname: "TÜRKMENLER",
+        title: {
+            tr: "Yönetici Kurulu Yurt Dışı Bağlantılar Sorumlusu",
+            en: "Executive Board International Connections Officer"
+        },
+        social: {
+            insta: "https://www.instagram.com/turkmenlertugce/",
+            linkedin: "www.linkedin.com/in/tuğçetürkmenler",
+            github: "https://github.com/turkmenlertugce",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "4. Sınıf",
+            en: "4. Grade"
+        },
+        email: ["tugceturkmenler@std.iyte.edu.tr", "turkmenlertugce@gmail.com"],
+        phone: "+90 538 090 69 45",
+
+        image: MemberTugce,
+        coolImage: Tugce
+    },
+
+    {
+        url: "emreyildiz",
+        name: "Emre",
+        surname: "YILDIZ",
+        title: {
+            tr: "Yönetici Kurulu Blockchain Yöneticisi",
+            en: "Executive Board Blockchain Manager"
+        },
+        social: {
+            insta: "https://www.instagram.com/emrestay/",
+            linkedin: "https://www.linkedin.com/in/emreyildiz1",
+            github: "",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "1. Sınıf",
+            en: "1. Grade"
+        },
+        email: ["emyildiz@std.iyte.edu.tr", "emreyildiz1412@gmail.com"],
+        phone: "+90 538 591 34 70",
+
+        image: MemberEmre,
+        coolImage: Emre
+    },
+
+    {
+        url: "neclaakyol",
+        name: "Necla",
+        surname: "AKYOL",
+        title: {
+            tr: "Yönetici Kurulu Yurt İçi Bağlantılar Sorumlusu",
+            en: "Executive Board Domestic Connections Officer"
+        },
+        social: {
+            insta: "https://www.instagram.com/nneeeccllaaa/",
+            linkedin: "https://www.linkedin.com/in/necla-akyol-b4a81a257",
+            github: "https://github.com/neclaakyol",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "1. Sınıf",
+            en: "1. Grade"
+        },
+        email: ["neclaakyol@std.iyte.edu.tr", "naclaakyol0607@gmail.com"],
+        phone: "+90 537 503 35 06",
+
+        image: MemberNecla,
+        coolImage: Necla
+    },
+
+    {
+        url: "ozgedogatopak",
+        name: "Özge Doğa",
+        surname: "TOPRAK",
+        title: {
+            tr: "Yönetici Kurulu Sponsorluk Yöneticisi",
+            en: "Executive Board Sponsorship Manager"
+        },
+        social: {
+            insta: "https://www.instagram.com/emrestay/",
+            linkedin: "https://www.linkedin.com/in/emreyildiz1",
+            github: "",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Endüstriyel Tasarım",
+            en: "Industrial Design"
+        },
+        grade: {
+            tr: "3. Sınıf",
+            en: "3. Grade"
+        },
+        email: ["ozgetoprak@std.iyte.edu.tr", "ozgedoga7@gmail.com"],
+        phone: "+90 534 514 29 11",
+
+        image: MemberDoga,
+        coolImage: Doga
+    },
+
+    {
+        url: "ceylinsahin",
+        name: "Ceylin",
+        surname: "ŞAHİN",
+        title: {
+            tr: "Yönetici Kurulu Sosyal Sorumluluk Projeleri Yöneticisi",
+            en: "Executive Board Social Responsibility Projects Manager"
+        },
+        social: {
+            insta: "https://instagram.com/00ceylin00?igshid=NGVhN2U2NjQ0Yg==",
+            linkedin: "",
+            github: "",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Kimya Mühendisliği",
+            en: "Chemical Engineering"
+        },
+        grade: {
+            tr: "1. Sınıf",
+            en: "1. Grade"
+        },
+        email: ["ceylinsahin@std.iyte.edu.tr", "cey1725@gmail.com"],
+        phone: "+90 545 695 45 56",
+
+        image: MemberCeylin,
+        coolImage: Ceylin
+    },
+
+    {
+        url: "ogulcan",
+        name: "Oğulcan",
+        surname: "KÜÇÜBIYIKLAR",
+        title: {
+            tr: "Yönetici Kurulu Projeler Yöneticisi",
+            en: "Executive Board Projects Manager"
+        },
+        social: {
+            insta: "https://www.instagram.com/oglcn11/",
+            linkedin: "https://www.linkedin.com/in/oğul-can-küçükbıyıklar-9323a51a2/",
+            github: "https://github.com/oglcn",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "2. Sınıf",
+            en: "2. Grade"
+        },
+        email: ["ogulkucukbiyiklar@std.iyte.edu.tr", "ogulcankb@gmail.com"],
+        phone: "+90 533 624 38 61",
+
+        image: MemberOglcn,
+        coolImage: Oglcn
     },
 
     {
