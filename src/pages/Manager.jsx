@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import LogoCanvas from "../components/LogoCanvas";
 // import ImageShadow from "../assets/Rectangle 12.svg";
@@ -15,6 +15,9 @@ import RedditIcon from '@mui/icons-material/Reddit';
 
 
 const Manager = ({ name, surname, title, insta, github, linkedin, school, department, grade, email, phone, coolImage }) => {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, [])
   return (
     <div className="container mx-auto max-w-md min-h-screen h-full bg-blue-900 text-white pb-10 backGround">
 
@@ -24,13 +27,13 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
       </div>
 
 
-      <div className="flex flex-col justify-end items-end z-20 px-6">
-        <div className="w-32">
+      <div className="flex flex-col justify-end items-end z-20 px-6 ">
+        <div className="w-32 mt-32">
           <LogoCanvas />
         </div>
 
-        <div className="flex flex-col items-end justify-end mb-10 z-20">
-          <p className="font-bold text-sm">Tel No:</p>
+        <div className="flex flex-col items-end justify-end mb-10 z-20 mt-12">
+          <p className="font-bold text-sm ">Tel No:</p>
           <p className="font-extralight text-xl">{phone}</p>
         </div>
 
@@ -53,7 +56,7 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
         </div>
 
         <div className="flex flex-col items-end justify-end mb-10 z-20">
-          <h1 className="font-extrabold text-4xl">{name + " " + surname}</h1>
+          <h1 className="font-extrabold text-4xl text-end">{name + " " + surname}</h1>
           <p className="-mt-1 text-sm font-light">{title}</p>
           <div className="flex justify-end items-end mt-2">
             <a href={insta} className="ml-1"><InstagramIcon /></a>

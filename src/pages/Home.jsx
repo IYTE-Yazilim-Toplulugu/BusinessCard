@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className='container mx-auto max-w-md min-h-screen h-full bg-blue-900 text-white pb-10 backGround'>
 
-        <div className='relative top-2 left-0'>
+        <div className='relative top-4 left-0'>
             {
                 lang ? (
                     <p className='py-2 cursor-pointer'><span className='font-bold px-2 pl-4 text-green-300' onClick={() => setLang(true)}>Türkçe</span> | <span className='font-bold px-2'  onClick={() => setLang(false)}>English</span></p>
@@ -24,20 +24,20 @@ const Home = () => {
             
         </div>
 
-        <div className='flex justify-center items-center pt-20'>
-            <img src={BasicLogo} alt="Iztech Software Society Logo" className='h-48' />
+        <div className='flex justify-end items-center pt-10 -mt-16 mr-8'>
+            <img src={BasicLogo} alt="Iztech Software Society Logo" className='h-12' />
         </div>
 
         {
             lang ? (
-                <h1 className='text-center mt-16 font-extrabold text-2xl'>Yönetim Kurulu Üyeleri</h1>
+                <h1 className='text-center mt-4 font-extrabold text-2xl'>Yönetim Kurulu Üyeleri</h1>
             ) : (
-                <h1 className='text-center mt-16 font-extrabold text-2xl'>Society Board Members</h1>
+                <h1 className='text-center mt-4 font-extrabold text-2xl'>Society Board Members</h1>
             )
         }
 
 
-        <div className='grid grid-cols-2 px-4 my-12'>
+        <div className='grid grid-cols-2 px-4 my-4'>
 
             {
                 members.map((member, i) => (
@@ -53,6 +53,10 @@ const Home = () => {
                 ))
             }
             
+        </div>
+
+        <div>
+        <p className="my-6 text-white/60 text-center text-sm">Copyright 2023 © Yazılım Topluluğu</p>
         </div>
     </div>
   )
