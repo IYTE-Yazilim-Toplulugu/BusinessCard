@@ -12,6 +12,7 @@ import Damla from "./assets/Individual/damla.png";
 import Mumtaz from "./assets/Individual/mumtaz.png";
 import Kerem from "./assets/Individual/kerem.png";
 import Ata from "./assets/Individual/atakan.png";
+import Rollas from "./assets/Individual/rollas.png";
 
 
 import MemberOguz from "./assets/members/oguzkare.png";
@@ -25,6 +26,7 @@ import MemberDamla from "./assets/members/damlakare.png";
 import MemberMumtaz from "./assets/members/mumtazkare.png";
 import MemberKerem from "./assets/members/keremkare.png";
 import MemberAta from "./assets/members/atakare.png";
+import MemberRollas from "./assets/members/rollaskare.png";
 
 export const members = [
     {
@@ -49,8 +51,8 @@ export const members = [
             en: "Computer Engineering"
         },
         grade: {
-            tr: "1. Sınıf",
-            en: "1. Grade"
+            tr: "2. Sınıf",
+            en: "2. Grade"
         },
         email: ["dogukantopcu35@gmail.com"],
         phone: "+90 553 198 35 75",
@@ -223,12 +225,12 @@ export const members = [
     },
 
     {
-        url: "nazodenir",
-        name: "Zeynep Naz",
-        surname: "ÖDENİR",
+        url: "nurcanyildiz",
+        name: "Nurcan",
+        surname: "YILDIZ",
         title: {
-            tr: "Yönetici Kurulu Sosyal Medya Yöneticisi",
-            en: "Executive Board Social Media Manager"
+            tr: "Yönetici Kurulu Tanıtım Sorumlusu",
+            en: "Executive Board Publicity Officer"
         },
         social: {
             insta: "https://www.instagram.com/nazkie_1/",
@@ -259,8 +261,8 @@ export const members = [
         name: "Damla",
         surname: "KELEŞ",
         title: {
-            tr: "Yönetici Kurulu Tanıtım Sorumlusu",
-            en: "Executive Board Publicity Officer"
+            tr: "Yönetici Kurulu Sosyal Medya Yöneticisi",
+            en: "Executive Board Social Media Manager"
         },
         social: {
             insta: "https://www.instagram.com/_kdamlasu/",
@@ -351,6 +353,70 @@ export const members = [
     },
 
     {
+        url: "atakanserce",
+        name: "Atakan",
+        surname: "SERÇE",
+        title: {
+            tr: "Yönetici Kurulu Enstitü İçi Bağlantılar Sorumlusu",
+            en: "Executive Board Intra-Institute Connections Officer"
+        },
+        social: {
+            insta: "https://www.instagram.com/serceatakan/",
+            linkedin: "https://www.linkedin.com/in/atakan-ser%C3%A7e-2516b9220/",
+            github: "https://github.com/byserce",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "2. Sınıf",
+            en: "2. Grade"
+        },
+        email: ["atakanserce@std.iyte.edu.tr", "atakan.serce@outlook.com"],
+        phone: "+90 505 036 60 80",
+
+        image: MemberAta,
+        coolImage: Ata
+    },
+
+    {
+        url: "canrollas",
+        name: "Can",
+        surname: "ROLLAS",
+        title: {
+            tr: "Yönetici Kurulu Eğitimler ve Atölyeler Sorumlusu",
+            en: "Executive Board Educations and Workshops Officer"
+        },
+        social: {
+            insta: "https://www.instagram.com/rollas.can/",
+            linkedin: "https://www.linkedin.com/in/can-rollas-198248b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            github: "https://github.com/canrollas",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Bilgisayar Mühendisliği",
+            en: "Computer Engineering"
+        },
+        grade: {
+            tr: "4. Sınıf",
+            en: "4. Grade"
+        },
+        email: ["canrollas@std.iyte.edu.tr", "canrollas@gmail.com"],
+        phone: "+90 546 495 81 78",
+
+        image: MemberRollas,
+        coolImage: Rollas
+    },
+
+    {
         url: "cerencinar",
         name: "Ceren",
         surname: "ÇINAR",
@@ -382,67 +448,4 @@ export const members = [
         coolImage: CoolImage
     },
 
-    {
-        url: "atakanserce",
-        name: "Atakan",
-        surname: "SERÇE",
-        title: {
-            tr: "Yönetim Kurulu İletişim Başkanı",
-            en: "Head of Society Board of Communication"
-        },
-        social: {
-            insta: "https://www.instagram.com/serceatakan/",
-            linkedin: "https://www.linkedin.com/in/atakan-ser%C3%A7e-2516b9220/",
-            github: "https://github.com/byserce",
-        },
-        school: {
-            tr: "İzmir Yüksek Teknoloji Enstitüsü",
-            en: "İzmir Institute of Technology"
-        },
-        department: {
-            tr: "Bilgisayar Mühendisliği",
-            en: "Computer Engineering"
-        },
-        grade: {
-            tr: "2. Sınıf",
-            en: "2. Grade"
-        },
-        email: ["atakanserce@std.iyte.edu.tr", "atakan.serce@outlook.com"],
-        phone: "+90 505 036 60 80",
-
-        image: MemberAta,
-        coolImage: Ata
-    },
-
-    {
-        url: "atakanserce",
-        name: "Atakan",
-        surname: "SERÇE",
-        title: {
-            tr: "Yönetim Kurulu İletişim Başkanı",
-            en: "Head of Society Board of Communication"
-        },
-        social: {
-            insta: "",
-            linkedin: "",
-            github: "",
-        },
-        school: {
-            tr: "İzmir Yüksek Teknoloji Enstitüsü",
-            en: "İzmir Institute of Technology"
-        },
-        department: {
-            tr: "Bilgisayar Mühendisliği",
-            en: "Computer Engineering"
-        },
-        grade: {
-            tr: "1. Sınıf",
-            en: "1. Grade"
-        },
-        email: ["dogukantopcu35@gmail.com"],
-        phone: "+90 553 198 35 75",
-
-        image: Image,
-        coolImage: CoolImage
-    },
 ];
