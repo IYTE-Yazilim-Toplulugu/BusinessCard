@@ -3,7 +3,6 @@ import CoolImage from "./assets/Mask group.png";
 
 import Dogukan from "./assets/Individual/dogukan.png";
 import Akin from "./assets/Individual/akin.png";
-import Naz from "./assets/Individual/naz.png";
 import Yigit from "./assets/Individual/yigit.png";
 import Oguzhan from "./assets/Individual/oguz.png";
 import Hamza from "./assets/Individual/hamza.png";
@@ -19,10 +18,10 @@ import Doga from "./assets/Individual/doga.png";
 import Ceylin from "./assets/Individual/ceylins.png";
 import Oglcn from "./assets/Individual/oglcnn.png";
 import Necla from "./assets/Individual/necla.png";
+import Nurcan from "./assets/Individual/nurcan.png";
 
 
 import MemberOguz from "./assets/members/oguzkare.png";
-import MemberNaz from "./assets/members/nazkare.png";
 import MemberDogukan from "./assets/members/dogukankare.png";
 import MemberYigit from "./assets/members/yigitkare.png";
 import MemberAkin from "./assets/members/akinkare.png";
@@ -39,6 +38,7 @@ import MemberDoga from "./assets/members/dogakare.png";
 import MemberCeylin from "./assets/members/ceylinkare.png";
 import MemberOglcn from "./assets/members/oglcnkare.png";
 import MemberNecla from "./assets/members/neclakare.png";
+import MemberNurcan from "./assets/members/nurcankare.png";
 
 export const members = [
     {
@@ -294,8 +294,8 @@ export const members = [
         email: ["nurcanyildiz@std.iyte.edu.tr", "23nuryldz@gmail.com"],
         phone: "+90 537 550 83 01",
 
-        image: MemberNaz,
-        coolImage: Naz
+        image: MemberNurcan,
+        coolImage: Nurcan
     },
 
     {
