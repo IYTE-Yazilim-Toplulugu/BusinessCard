@@ -50,9 +50,9 @@ export const members = [
             en: "Head of Society Board"
         },
         social: {
-            insta: "",
-            linkedin: "",
-            github: "",
+            insta: "https://www.instagram.com/dogukantopcu35/",
+            linkedin: "https://www.linkedin.com/in/dogukantop%C3%A7u35/",
+            github: "https://github.com/DogukanTopcu",
         },
         school: {
             tr: "İzmir Yüksek Teknoloji Enstitüsü",
