@@ -19,6 +19,7 @@ import Ceylin from "./assets/Individual/ceylins.png";
 import Oglcn from "./assets/Individual/oglcnn.png";
 import Necla from "./assets/Individual/necla.png";
 import Nurcan from "./assets/Individual/nurcan.png";
+import Ceren from "./assets/Individual/ceren.png";
 
 
 import MemberOguz from "./assets/members/oguzkare.png";
@@ -39,6 +40,8 @@ import MemberCeylin from "./assets/members/ceylinkare.png";
 import MemberOglcn from "./assets/members/oglcnkare.png";
 import MemberNecla from "./assets/members/neclakare.png";
 import MemberNurcan from "./assets/members/nurcankare.png";
+import MemberCeren from "./assets/members/cerenkare.png";
+
 
 export const members = [
     {
@@ -646,8 +649,8 @@ export const members = [
         email: ["cerencinar@std.iyte.edu.tr", "cerenccinar@gmail.com"],
         phone: "+90 545 636 69 65",
 
-        image: Image,
-        coolImage: CoolImage
+        image: MemberCeren,
+        coolImage: Ceren
     },
 
 ];
