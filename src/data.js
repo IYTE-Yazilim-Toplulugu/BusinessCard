@@ -1,5 +1,5 @@
-import Image from "./assets/members/katzen.JPG";
-import CoolImage from "./assets/Mask group.png";
+// import Image from "./assets/members/katzen.JPG";
+// import CoolImage from "./assets/Mask group.png";
 
 import Dogukan from "./assets/Individual/dogukan.png";
 import Akin from "./assets/Individual/akin.png";
@@ -20,6 +20,7 @@ import Oglcn from "./assets/Individual/oglcnn.png";
 import Necla from "./assets/Individual/necla.png";
 import Nurcan from "./assets/Individual/nurcan.png";
 import Ceren from "./assets/Individual/ceren.png";
+import Ulas from "./assets/Individual/ulas.png";
 
 
 import MemberOguz from "./assets/members/oguzkare.png";
@@ -41,6 +42,7 @@ import MemberOglcn from "./assets/members/oglcnkare.png";
 import MemberNecla from "./assets/members/neclakare.png";
 import MemberNurcan from "./assets/members/nurcankare.png";
 import MemberCeren from "./assets/members/cerenkare.png";
+import MemberUlas from "./assets/members/ulaskare.png";
 
 
 export const members = [
@@ -177,8 +179,8 @@ export const members = [
         name: "Atakan",
         surname: "SERÇE",
         title: {
-            tr: "Yönetim Kurulu İletişim Başkanı",
-            en: "Head of Society Board of Communication"
+            tr: "Yönetici Kurulu Enstitü İçi Bağlantılar Sorumlusu",
+            en: "Executive Board Intra-Institute Connections Officer"
         },
         social: {
             insta: "https://www.instagram.com/serceatakan/",
@@ -651,6 +653,40 @@ export const members = [
 
         image: MemberCeren,
         coolImage: Ceren
+    },
+
+
+
+    {
+        url: "ulaskaplan",
+        name: "Ulaş",
+        surname: "KAPLAN",
+        title: {
+            tr: "Yönetici Kurulu Sibergüvenlik Yöneticisi",
+            en: "Executive Board Cybersecurity Manager"
+        },
+        social: {
+            insta: "https://www.instagram.com/_ulas__kaplan/",
+            linkedin: "https://www.linkedin.com/in/ulas-kaplan/",
+            github: "https://github.com/ulaskaplan",
+        },
+        school: {
+            tr: "İzmir Yüksek Teknoloji Enstitüsü",
+            en: "İzmir Institute of Technology"
+        },
+        department: {
+            tr: "Elektronik ve Haberleşme Mühendisliği",
+            en: "Electronics and Communication Engineering"
+        },
+        grade: {
+            tr: "2. Sınıf",
+            en: "2. Grade"
+        },
+        email: ["ulaskaplan@std.iyte.edu.tr", "ulaskaplan4444@gmail.com"],
+        phone: "+90 533 780 44 62",
+
+        image: MemberUlas,
+        coolImage: Ulas
     },
 
 ];

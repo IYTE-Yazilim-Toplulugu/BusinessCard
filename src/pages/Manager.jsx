@@ -47,9 +47,9 @@ const Manager = ({ name, surname, title, insta, github, linkedin, school, depart
         <div className="flex flex-col items-end justify-end mb-10 z-20">
           <p className="font-bold text-sm">Emails:</p>
           {
-            email.map(e => {
+            email.map((e, i) => {
               return (
-                <p className="font-extralight text-lg">{e}</p>
+                <p key={i} className="font-extralight text-lg">{e}</p>
               );
             })
           }

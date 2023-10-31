@@ -1,24 +1,29 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { members } from '../data';
 
 import BasicLogo from "../assets/png-colorful.png";
 
 
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [lang, setLang] = useState(true);
     const navigation = useNavigate();
+    const location = useLocation();
+
+    useEffect(() => setLang(location.pathname === "/"), [location]);
+
   return (
     <div className='container mx-auto max-w-md min-h-screen h-full bg-blue-900 text-white pb-10 backGround'>
 
         <div className='relative top-4 left-0'>
+
             {
                 lang ? (
-                    <p className='py-2 cursor-pointer'><span className='font-bold px-2 pl-4 text-green-300' onClick={() => setLang(true)}>Türkçe</span> | <span className='font-bold px-2'  onClick={() => setLang(false)}>English</span></p>
+                    <p className='py-2 cursor-pointer'><span className='font-bold px-2 pl-4 text-green-300' onClick={() => navigation("/")}>Türkçe</span> | <span className='font-bold px-2'  onClick={() => navigation("/en")}>English</span></p>
                 ) : (
-                    <p className='py-2 cursor-pointer'><span className='font-bold px-2 pl-4' onClick={() => setLang(true)}>Türkçe</span> | <span className='font-bold px-2 text-green-300'  onClick={() => setLang(false)}>English</span></p>
+                    <p className='py-2 cursor-pointer'><span className='font-bold px-2 pl-4' onClick={() => navigation("/")}>Türkçe</span> | <span className='font-bold px-2 text-green-300'  onClick={() => navigation("/en")}>English</span></p>
                 )
             }
             
