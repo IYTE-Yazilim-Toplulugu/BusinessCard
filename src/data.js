@@ -593,7 +593,7 @@ export const members = [
 
     {
         url: "ogulcan",
-        name: "Oğulcan",
+        name: "Oğul Can",
         surname: "KÜÇÜBIYIKLAR",
         title: {
             tr: "Yönetici Kurulu Projeler Yöneticisi",
